@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?technology,website') no-repeat center center/cover;
+      color: white;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+      background: white;
+    }
+
+    .feature-box {
+      width: 300px;
+      padding: 20px;
+      margin: 10px;
+      background: #e7f3ec;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .feature-box h3 {
+      color: #4CAF50;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Website</h1>
+    <p>Crafting elegant user experiences</p>
+  </header>
+
+  <section class="hero">
+    <h1>Your Digital Journey Starts Here</h1>
+    <p>Clean • Responsive • Modern</p>
+  </section>
+
+  <section class="features">
+    <div class="feature-box">
+      <h3>Responsive Design</h3>
+      <p>Looks great on all devices, from desktops to mobiles.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Fast & Lightweight</h3>
+      <p>Optimized for speed and performance.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Easy to Customize</h3>
+      <p>Change content and styling with minimal effort.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 My Landing Page. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
