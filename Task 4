@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhasree | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1>Subhasree</h1>
+        </nav>
+        <header>
+            <img src="images/profile.jpg" alt="Subhasree">
+            <p class="tagline">Front-End Developer | Tech Enthusiast</p>
+        </header>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm Subha, a passionate web developer with experience in building dynamic and responsive websites. I specialize in front-end technologies and always aim to create user-friendly, visually appealing websites.</p>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <div>
+                <h3>Airline Reservation System</h3>
+                <p>A web-based system to manage flight bookings, passenger information, and payment processing with a user-friendly interface.</p>
+            </div>
+            <div>
+                <h3>Smart Stick for Visually Impaired</h3>
+                <p>A smart electronic stick embedded with sensors and alerts, designed to assist visually impaired individuals navigate safely.</p>
+            </div>
+        </section>
+        <section class="resume">
+            <h2>Resume</h2>
+            <a href="resume.pdf" download>Download Resume</a>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:subhasree2006@gmail.com">subhasree2006@gmail.com</a></p>
+            <p>Phone: 7598257737</p>
+        </section>
+    </div>
+</body>
+</html>
